@@ -242,6 +242,21 @@ func KeysymToStr(keysym xproto.Keysym) string {
 	return symStr
 }
 
+// KeysymToBaseStr converts a keysym to a string if one is available.
+// Unlike KeysymToStr, it doesn't check the 'weirdKeysyms' map, so that
+// multi-character strings don't get converted to single character
+// representations (e.g., 'braceleft' will stay the same way
+// and will not be converted to '{').
+// If no match is found initially, an empty string is returned.
+func KeysymToBaseStr(keysym xproto.Keysym) string {
+	symStr, ok := strKeysyms[keysym]
+	if !ok {
+		return ""
+	}
+
+	return symStr
+}
+
 // KeysymGet is a shortcut alias for 'KeysymGetWithMap' using the current
 // keymap stored in XUtil.
 // keybind.Initialize MUST have been called before using this function.
