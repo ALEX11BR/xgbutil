@@ -58,3 +58,11 @@ xpybutil project URL: https://github.com/BurntSushi/xpybutil
 jezek's Fork
 ============
 Why I've forked the xgbutil repository from BurntSushi's github is discussed in [issue #2](https://github.com/jezek/xgb/issues/2).
+
+ALEX11BR's Fork
+===============
+I forked jezek's fork and made these changes:
+- add the keybind.KeysymToBaseStr function (I needed its functionality
+    for my personal project [gxhk](https://github.com/ALEX11BR/gxhk))
+- change the license to the Unlicense so that pkg.go.dev can generate
+    online documenation pages, as it doesn't like the previously used WTFPL
