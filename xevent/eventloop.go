@@ -14,7 +14,7 @@ import (
 	"github.com/jezek/xgb/shape"
 	"github.com/jezek/xgb/xproto"
 
-	"github.com/jezek/xgbutil"
+	"github.com/alex11br/xgbutil"
 )
 
 // Read reads one or more events and queues them in XUtil.

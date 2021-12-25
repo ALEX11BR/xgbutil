@@ -17,7 +17,7 @@ Your first stop should be the examples directory.
 
 Installation
 ============
-go get github.com/jezek/xgbutil
+go get github.com/alex11br/xgbutil
 
 Dependencies
 ============
@@ -30,7 +30,7 @@ freetype-go project URL: https://github.com/BurntSushi/freetype-go
 
 Quick Example
 =============
-go get github.com/jezek/xgbutil/_examples/window-name-sizes
+go get github.com/alex11br/xgbutil/_examples/window-name-sizes
 "$GOPATH"/bin/window-name-sizes
 
 The output will be a list of names of all top-level windows and their geometry
@@ -39,7 +39,7 @@ some basic EWMH properties.)
 
 Documentation
 =============
-https://godoc.org/github.com/jezek/xgbutil
+https://godoc.org/github.com/alex11br/xgbutil
 
 Examples
 ========

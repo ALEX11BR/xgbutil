@@ -1,12 +1,11 @@
 package xinerama
 
-import "sort"
-
 import (
-	"github.com/jezek/xgb/xinerama"
+	"sort"
 
-	"github.com/jezek/xgbutil"
-	"github.com/jezek/xgbutil/xrect"
+	"github.com/alex11br/xgbutil"
+	"github.com/alex11br/xgbutil/xrect"
+	"github.com/jezek/xgb/xinerama"
 )
 
 // Alias so we use it as a receiver to satisfy sort.Interface

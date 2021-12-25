@@ -10,15 +10,15 @@ import (
 
 	"github.com/jezek/xgb/xproto"
 
-	"github.com/jezek/xgbutil"
-	"github.com/jezek/xgbutil/ewmh"
-	"github.com/jezek/xgbutil/gopher"
-	"github.com/jezek/xgbutil/icccm"
-	"github.com/jezek/xgbutil/keybind"
-	"github.com/jezek/xgbutil/mousebind"
-	"github.com/jezek/xgbutil/xevent"
-	"github.com/jezek/xgbutil/xgraphics"
-	"github.com/jezek/xgbutil/xwindow"
+	"github.com/alex11br/xgbutil"
+	"github.com/alex11br/xgbutil/ewmh"
+	"github.com/alex11br/xgbutil/gopher"
+	"github.com/alex11br/xgbutil/icccm"
+	"github.com/alex11br/xgbutil/keybind"
+	"github.com/alex11br/xgbutil/mousebind"
+	"github.com/alex11br/xgbutil/xevent"
+	"github.com/alex11br/xgbutil/xgraphics"
+	"github.com/alex11br/xgbutil/xwindow"
 )
 
 func main() {

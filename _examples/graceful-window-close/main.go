@@ -26,10 +26,10 @@ import (
 
 	"github.com/jezek/xgb/xproto"
 
-	"github.com/jezek/xgbutil"
-	"github.com/jezek/xgbutil/mousebind"
-	"github.com/jezek/xgbutil/xevent"
-	"github.com/jezek/xgbutil/xwindow"
+	"github.com/alex11br/xgbutil"
+	"github.com/alex11br/xgbutil/mousebind"
+	"github.com/alex11br/xgbutil/xevent"
+	"github.com/alex11br/xgbutil/xwindow"
 )
 
 // When counter reaches 0, exit.

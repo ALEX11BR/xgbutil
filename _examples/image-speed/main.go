@@ -5,15 +5,16 @@
 package main
 
 import (
-	"github.com/jezek/xgb/xproto"
-	"github.com/jezek/xgbutil"
-	"github.com/jezek/xgbutil/keybind"
-	"github.com/jezek/xgbutil/xevent"
-	"github.com/jezek/xgbutil/xgraphics"
-	"github.com/jezek/xgbutil/xwindow"
 	"image"
 	"log"
 	"time"
+
+	"github.com/alex11br/xgbutil"
+	"github.com/alex11br/xgbutil/keybind"
+	"github.com/alex11br/xgbutil/xevent"
+	"github.com/alex11br/xgbutil/xgraphics"
+	"github.com/alex11br/xgbutil/xwindow"
+	"github.com/jezek/xgb/xproto"
 )
 
 func main() {

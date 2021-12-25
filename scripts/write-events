@@ -102,7 +102,7 @@ elif sys.argv[1] == 'callbacks':
     print 'import ('
     print '\t"github.com/jezek/xgb/xproto"'
     print
-    print '\t"github.com/jezek/xgbutil"'
+    print '\t"github.com/alex11br/xgbutil"'
     print ')'
     print
 

@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/jezek/xgbutil"
-	"github.com/jezek/xgbutil/ewmh"
-	"github.com/jezek/xgbutil/icccm"
-	"github.com/jezek/xgbutil/xwindow"
+	"github.com/alex11br/xgbutil"
+	"github.com/alex11br/xgbutil/ewmh"
+	"github.com/alex11br/xgbutil/icccm"
+	"github.com/alex11br/xgbutil/xwindow"
 )
 
 func main() {

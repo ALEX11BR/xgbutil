@@ -10,11 +10,11 @@ import (
 
 	"github.com/jezek/xgb/xproto"
 
-	"github.com/jezek/xgbutil"
-	"github.com/jezek/xgbutil/ewmh"
-	"github.com/jezek/xgbutil/xevent"
-	"github.com/jezek/xgbutil/xprop"
-	"github.com/jezek/xgbutil/xwindow"
+	"github.com/alex11br/xgbutil"
+	"github.com/alex11br/xgbutil/ewmh"
+	"github.com/alex11br/xgbutil/xevent"
+	"github.com/alex11br/xgbutil/xprop"
+	"github.com/alex11br/xgbutil/xwindow"
 )
 
 // otherSource serves as a placeholder from some other source of user input.

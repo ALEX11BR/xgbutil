@@ -7,10 +7,10 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/jezek/xgbutil"
-	"github.com/jezek/xgbutil/ewmh"
-	"github.com/jezek/xgbutil/xevent"
-	"github.com/jezek/xgbutil/xgraphics"
+	"github.com/alex11br/xgbutil"
+	"github.com/alex11br/xgbutil/ewmh"
+	"github.com/alex11br/xgbutil/xevent"
+	"github.com/alex11br/xgbutil/xgraphics"
 )
 
 var (
